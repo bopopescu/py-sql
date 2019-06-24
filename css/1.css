@@ -1,0 +1,11 @@
+.filter_input {
+  width: 500px;
+  height: 100px;
+}
+.filter_submit {
+  padding: 10px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,37 @@
+.tab_paxt tbody tr {
+    height: auto;
+}
+
+.tab_paxt tbody tr td:nth-child(1) {
+    width: 5%;
+    word-wrap: break-word;
+}
+
+.tab_paxt tbody tr td:nth-child(2) {
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.tab_paxt tbody tr td:nth-child(3) {
+    width: 6%;
+    word-wrap: break-word;
+}
+.tab_paxt tbody tr th:nth-child(4),
+.tab_paxt tbody tr td:nth-child(4) {
+    width: 5%;
+    word-wrap: break-word;
+    text-align-last: right;
+}
+.tab_paxt tbody tr th:nth-child(5),
+.tab_paxt tbody tr td:nth-child(5) {
+    width: 10%;
+    word-wrap: break-word;
+    text-align-last: right;
+}
+
+.tab_paxt tbody tr th:nth-child(6),
+.tab_paxt tbody tr td:nth-child(6) {
+    width: 10%;
+    word-wrap: break-word;
+    text-align-last: right;
+}

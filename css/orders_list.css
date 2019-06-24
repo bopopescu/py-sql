@@ -1,0 +1,63 @@
+body {
+    padding-top: 60px;
+}
+.tab_orders_list tbody tr {
+    height: auto;
+}
+
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+tbody {
+    max-height: 600px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tab_orders_list tbody tr:hover {
+    outline: 1px solid #02f;
+    background-color: #aaa;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.tab_orders_list thead tr th:nth-child(1),
+.tab_orders_list tbody tr td:nth-child(1) {
+    width: 3%;
+    word-wrap: break-word;
+}
+.tab_orders_list thead tr th:nth-child(2),
+.tab_orders_list tbody tr td:nth-child(2) {
+    width: 7%;
+    word-wrap: break-word;
+    text-align: right;
+}
+.tab_orders_list thead tr th:nth-child(3),
+.tab_orders_list tbody tr td:nth-child(3) {
+    width: 7%;
+    word-wrap: break-word;
+    text-align: right;
+}
+.tab_orders_list thead tr th:nth-child(4),
+.tab_orders_list tbody tr td:nth-child(4) {
+    width: 10%;
+    word-wrap: break-word;
+    text-align: right;
+}
+.tab_orders_list thead tr th:nth-child(5),
+.tab_orders_list tbody tr td:nth-child(5) {
+    width: 7%;
+    word-wrap: break-word;
+    text-align: right;
+}

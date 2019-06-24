@@ -1,0 +1,35 @@
+body {
+    padding-top: 60px;
+}
+.tab_cust tbody tr {
+    height: auto;
+}
+
+.tab_cust tbody tr:hover {
+    outline: 1px solid #02f;
+    background-color: #aaa;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.tab_cust tbody tr td:nth-child(1) {
+    width: 5%;
+    word-wrap: break-word;
+}
+
+.tab_cust tbody tr td:nth-child(2) {
+    width: 20%;
+    word-wrap: break-word;
+}
+
+.tab_cust tbody tr td:nth-child(3) {
+    width: 40%;
+    word-wrap: break-word;
+}
+
+.tab_cust tbody tr td:nth-child(4) {
+    width: 10%;
+    word-wrap: break-word;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/1.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<html>
+
+<body>
+    <form action="cgi-bin/orders.py" method="POST">
+        Text: <input type="text" name="filter" value="WHERE pax.DAYPAX >= '2019-05-20' ORDER BY daypax" class="filter_input"/><br><br>
+        <input type="submit" value="Orders" class="filter_submit"/>
+    </form>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Modal Header</h4>
+          </div>
+          <div class="modal-body">
+            <iframe src="/cgi-bin/salers.py"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+</body>
+
+</html>

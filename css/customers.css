@@ -1,0 +1,135 @@
+body {
+    padding-top: 60px;
+}
+
+.tab_cust tbody tr {
+    height: auto;
+}
+
+.tab_cust tbody tr:hover {
+    outline: 1px solid #02f;
+    background-color: #aaa;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.tab_cust thead tr th:nth-child(1),
+.tab_cust tbody tr td:nth-child(1) {
+    width: 20%;
+    word-wrap: break-word;
+}
+.tab_cust thead tr th:nth-child(2),
+.tab_cust tbody tr td:nth-child(2) {
+    width: 40%;
+    word-wrap: break-word;
+}
+.tab_cust thead tr th:nth-child(3),
+.tab_cust tbody tr td:nth-child(3) {
+    width: 10%;
+    word-wrap: break-word;
+}
+.tab_cust thead tr th:nth-child(4),
+.tab_cust tbody tr td:nth-child(4) {
+    width: 30%;
+    word-wrap: break-word;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* The Modal (background) */
+.modale {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 60px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    padding: 20px;
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 80%;
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0; 
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
